@@ -1,12 +1,12 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
+title: "Reproducible Research: Analyzing Fitbit Users' Data"
 output: 
   html_document:
     keep_md: true
 ---
 ## Loading and preprocessing the data
 ```{r, echo=TRUE}
-setwd("/Users/pzhou5/Dropbox/Coursera/05 Reproducable Data/Week2")
+setwd("working directory here")
 download.file(url="https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity",destfile="Activity_Monitoring_Data.zip",method="curl")
 unzip("Activity_Monitoring_Data.zip")
 Activity<-read.csv("activity.csv",head=TRUE,sep=",",na="NA")
